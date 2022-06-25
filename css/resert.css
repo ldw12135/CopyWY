@@ -1,0 +1,14 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	color:#6c6c6c;
+	text-decoration: none;
+}
+img{
+	vertical-align: middle;
+}

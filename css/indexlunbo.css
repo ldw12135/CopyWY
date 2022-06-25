@@ -1,0 +1,438 @@
+.daohang{
+	width: 150px;
+	height: 410px;
+	border: 1px solid red;
+	background-color: greenyellow;
+	float: left;
+	margin-left:10px ;
+	margin-top: 28px;
+}
+/*
+ 2ge
+ * 
+ * */
+.section{
+	width: 1519px;
+	height: 440px;
+	border: 1px solid white;
+	background-color: white;
+}
+.section-product{
+	width: 1100px;
+	height: 380px;
+	margin: 0 auto;
+	margin-top: 30px;
+	/*border: 1px solid red;*/
+	background-color: white;
+	
+}
+.section-div{
+	width: 1100px;
+	height: 40px;
+	/*border: 1px solid red;*/
+	background-color:  #FFF;
+}
+.span-lift{
+	width: 250px;
+	height:25px;
+	display: inline-block;
+	/*border: 1px solid red;*/
+	margin-left: 20px;
+	background-color: #FFF;
+	font-family: "Microsoft Yahei","微软雅黑",verdana;
+	font-size: 14px;
+	color: #333;
+}
+.span-right{
+	width: 85px;
+	height:30px;
+	display: inline-block;
+	/*border: 1px solid red;*/
+	float: right;
+	background-color: #FFF;
+	font-family: "Microsoft Yahei","微软雅黑",verdana;
+	font-size: 14px;
+	color: #333;
+}
+.product-div{
+	width: 1100px;
+	height:360px;
+	/*border: 1px solid red;*/
+	background-color: #FFF;
+    display: flex;
+   
+}
+.product-lift{
+	width: 360px;
+	height:320px;
+	/*border: 1px solid red;*/
+    display: flex;
+	background: url(../img/74e2ea8f81004d0a60f90fc8e4649058.png);
+}
+.product-lift:hover{
+	background-size:365px 325px ;
+}
+.product-center:hover{
+	background-size:365px 325px ;
+}
+.product-zi-span1{
+	width: 155px;
+	height: 30px;
+	display: flex;
+	text-align: center;
+	font-size: 24px;
+	/*box-sizing: border-box;*/
+	/*border: 1px solid red;*/
+	color: #333;
+	margin-left: 125px;
+	margin-top:25px ;
+}
+.span1{
+	float: right;
+	margin-top: -35px;
+	background: url(../img/18ccda99a6f55ef573b3fb098b4d01b8.png);
+}
+.price1{
+	width: 55px;
+	height: 40px;
+	display: flex;
+	border-top:1px solid black ;
+	margin-top:20px ;
+	text-align: center;
+	float: right;
+	margin-right: 67px;
+	/*border: 1px solid red;*/
+	justify-content: flex-end;
+	align-items: flex-end;
+	color: #333;
+}
+.product-center{
+	width: 360px;
+	height:320px;
+	margin-left: 15px;
+	margin-right: 15px;
+	/*border: 1px solid red;*/
+	background-color: white;
+    display: flex;
+    background: url(../img/f0ab529d1d34b61357889029793e1086.png);
+	
+}
+.product-zi-span2{
+	width: 155px;
+	height: 30px;
+	display: flex;
+	text-align: center;
+	font-size: 24px;
+	/*box-sizing: border-box;*/
+	/*border: 1px solid red;*/
+	color: #333;
+	margin-left: 125px;
+	margin-top:25px ;
+}
+.span2{
+	float: right;
+	margin-top: -35px;
+	background: url(../img/18ccda99a6f55ef573b3fb098b4d01b8.png);
+}
+.price2{
+	width: 70px;
+	height: 40px;
+	display: flex;
+	border-top:1px solid black ;
+	margin-top:20px ;
+	text-align: center;
+	float: right;
+	margin-right: 67px;
+	/*border: 1px solid red;*/
+	justify-content: flex-end;
+	align-items: flex-end;
+	color: #333;
+}
+.product-right{
+	width: 355px;
+	height:320px;
+	/*border: 1px solid red;*/
+	background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.product-right-1{
+	width: 355px;
+	height:155px;
+	/*border: 1px solid red;*/
+	background-color: white;
+    display: flex;
+}
+.product-1-span1{
+	width: 150px;
+	height: 30px;
+	display: flex;
+	text-align: center;
+	font-size: 18px;
+	/*box-sizing: border-box;*/
+	/*border: 1px solid red;*/
+	color: #333;
+	margin-left: 20px;
+	margin-top:25px ;
+}
+.price3{
+	width: 65px;
+	height: 30px;
+	display: flex;
+	border-top:1px solid black ;
+	margin-top:10px ;
+	text-align: center;
+	float: right;
+	margin-right: 67px;
+	/*border: 1px solid red;*/
+	justify-content: flex-end;
+	align-items: flex-end;
+	color: #333;
+}
+
+
+.product-right-2{
+	width: 355px;
+	height:155px;
+	/*border: 1px solid red;*/
+	background-color: white;
+    display: flex;
+    margin-bottom: -6px;
+}
+.product-2-span2{
+	width: 150px;
+	height: 30px;
+	display: flex;
+	text-align: center;
+	font-size: 18px;
+	/*box-sizing: border-box;*/
+	/*border: 1px solid red;*/
+	color: #333;
+	margin-left: 20px;
+	margin-top:25px ;
+}
+.price4{
+	width: 65px;
+	height: 30px;
+	display: flex;
+	border-top:1px solid black ;
+	margin-top:10px ;
+	text-align: center;
+	float: right;
+	margin-right: 67px;
+	/*border: 1px solid red;*/
+	justify-content: flex-end;
+	align-items: flex-end;
+	color: #333;
+}
+.product-right-1{
+	background: url(../img/2ef40536e86eba997dc17cab62697a44.png) center center;
+}
+.product-right-1:hover{
+	background-size: 358px 162px;
+}
+.product-right-2{
+	background: url(../img/e3bcfdff30c97ba87d510da8d9da5d09.png)center center;
+}
+.product-right-2:hover{
+	background-size: 358px 162px;
+}
+/*
+ 4ge
+ * 
+ * 
+ * */
+.section-four{
+	width: 1519px;
+	height: 640px;
+	border: 1px solid white;
+	background-color:#f4f0ea;
+}
+.section-product-four{
+	width: 1100px;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 30px;
+	/*border: 1px solid red;*/
+	background-color:#f4f0ea;
+	
+}
+.section-div-four{
+	width: 1100px;
+	height: 40px;
+	/*border: 1px solid red;*/
+	background-color: #f4f0ea;
+}
+.span-lift-four{
+	width: 120px;
+	height:25px;
+	display: inline-block;
+	/*border: 1px solid red;*/
+	margin-left: 20px;
+	background-color: #f4f0ea;
+	font-family: "Microsoft Yahei","微软雅黑",verdana;
+	font-size: 14px;
+	color: #333;
+}
+.span-right-four{
+	width: 85px;
+	height:30px;
+	display: inline-block;
+	/*border: 1px solid red;*/
+	float: right;
+	background-color: #f4f0ea;
+	font-family: "Microsoft Yahei","微软雅黑",verdana;
+	font-size: 14px;
+	color: #333;
+}
+.section-div2-four{
+	width: 1100px;
+	height: 540px;
+	/*border: 1px solid red;*/
+	background-color:#f4f0ea;
+	display: flex;
+	justify-content: space-between;
+}
+.section-div2-four-one{
+	width: 400px;
+	height: 540px;
+	/*border: 1px solid red;*/
+	background-color: #f4f0ea;
+	display: flex;
+	flex-wrap: wrap;
+}
+.section-div2-four-one-1{
+	width: 420px;
+	height: 390px;
+	justify-content: center;
+	/*border: 1px solid red;*/
+	background-color:  #FFF;
+	display: flex;
+}
+.section-div2-four-one-2{
+	width: 420px;
+	height: 140px;
+	justify-content: center;
+	/*border: 1px solid red;*/
+	background-color: #FFF;
+	display: flex;
+}
+.four-one-span{
+	color: #fff;
+	text-align: center;
+	width: 65px;
+	margin-top: 10px;
+	height: 20px;
+    font-size: 12px;
+    background-color: #e36844;
+}
+.h4-four-one{
+	margin-top: -92px;
+	margin-left: 130px;
+}
+.p-four-one{
+	margin-top: -52px;
+	margin-left: 144px;
+}
+.section-div2-four-two{
+	width: 688px;
+	height: 540px;
+	/*border: 1px solid red;*/
+	background-color:#f4f0ea;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.two-1{
+	width: 222px;
+	height: 265px;
+	/*border: 1px solid red;*/
+	background-color: #f4f0ea;
+	
+	flex-wrap: wrap;
+}
+.two-1-tu{
+	width: 222px;
+	height: 180px;
+	/*border: 1px solid red;*/
+	margin: auto;
+	background-color: #f4f0ea;
+	background: url(../img/241db41b38ff7b512b0c1e0e11ea4cb9.png) no-repeat;
+	background-size: 222px ;
+}
+.two-1-tu:hover{
+	transform: scale(1.03);
+	transition: all 1s;
+}
+.two-p{
+	margin-left: -5px;
+    width: 50px;
+    font-size: 12px;
+    color: #a7936e;
+    border: 1px solid #b3a07d;
+    border-radius: 5px;
+    background-color: #f4f0ea;
+}
+.two-1-a{
+	margin-top: 1px;
+	width: 222px;
+	height: 79px;
+	/*border: 1px solid red;*/
+	background-color: #FFF;
+	justify-content: center;
+	display: flex;
+}
+.two-span1{
+	color: #fff;
+	text-align: center;
+	width: 45px;
+	height: 20px;
+    font-size: 12px;
+    background-color: #e36844;
+}
+.h4-two-1{
+	margin-top: -52px;
+	margin-left: 50px;
+}
+.p-two-1{
+	margin-left: 90px;
+}
+.two-2{
+	width: 222px;
+	height: 265px;
+	/*border: 1px solid red;*/
+	background-color:  #f4f0ea;
+	flex-wrap: wrap;
+}
+.two-3{
+	width: 222px;
+	height: 265px;
+	/*border: 1px solid red;*/
+	background-color:  #f4f0ea;
+	flex-wrap: wrap;
+}
+.two-4{
+	width: 222px;
+	height: 265px;
+	/*border: 1px solid red;*/
+	background-color:  #f4f0ea;
+	flex-wrap: wrap;
+}
+.two-5{
+	width: 222px;
+	height: 265px;
+	/*border: 1px solid red;*/
+	background-color:  #f4f0ea;
+	flex-wrap: wrap;
+}
+.two-6{
+	width: 222px;
+	height: 265px;
+	/*border: 1px solid red;*/
+	background-color:  #f4f0ea;
+	flex-wrap: wrap;
+}
+.section-div2-four-one-1 img:hover{
+    transform : scale(1.1);
+	transition: all 3s;
+}
